@@ -652,7 +652,15 @@ article {
 
 .contacts li a {
   color: black;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.contacts li a.twitter:hover {
+  color: #3b5998;
+}
+
+.contacts li a.instagram:hover {
+  color: #a337b8;
 }
 
 .contacts li a.facebook:hover {
