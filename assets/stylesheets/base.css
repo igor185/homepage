@@ -570,7 +570,7 @@ article {
 
 .avatar {
   position: relative;
-  max-width: 12rem;
+  max-width: 10rem;
   display: block;
   flex: 1 0 auto;
 }
@@ -652,7 +652,15 @@ article {
 
 .contacts li a {
   color: black;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.contacts li a.twitter:hover {
+  color: #3b5998;
+}
+
+.contacts li a.instagram:hover {
+  color: #a337b8;
 }
 
 .contacts li a.facebook:hover {
@@ -1096,7 +1104,6 @@ header+main {
 main {
   overflow: auto;
   z-index: 2;
-  background: white;
   position: relative;
 }
 
@@ -1152,4 +1159,8 @@ footer {
   main:nth-last-child(3) {
     margin-bottom: 0;
   }
+}
+
+body {
+  background: url('../images/background.png') fixed;
 }
