@@ -7,9 +7,11 @@ This website has been developed for an experienced martial artist from 'Street F
 ## Host
 I hosted it and now anyone wishing to get acquainted with Ryu and his life may go directly to the website by only clicking a link: 
 * [GitHub Pages](https://igor185.github.io/homepage/)
-* [Zeit](homepage-git-master.igorbabin185.now.sh)
+* [AWS](http://igor-babin-production2.s3-website.eu-central-1.amazonaws.com/)
+* [Zeit](homepage-git-master.igorbabin185.now.sh/)
 
 and develop branch:
+* [AWS](http://igor-babin-staging2.s3-website.eu-central-1.amazonaws.com/)
 * [Zeit](homepage-git-develop.igorbabin185.now.sh)
 
 
